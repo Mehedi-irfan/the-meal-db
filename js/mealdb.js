@@ -54,7 +54,7 @@ const displayFoodDetail = meal => {
     foodDetail.textContent = '';
     const div = document.createElement('div');
     div.innerHTML = `
-    <img src="${meal.strMealThumb}" class="card-img-top" alt="...">
+    <img src="${meal.strMealThumb}" class="card-img-top p-3 rounded h-50" alt="...">
         <div class="card-body">
           <h5 class="card-title">${meal.strMeal}</h5>
           <p class="card-text">${meal.strInstructions.slice(0, 150)}</p>
